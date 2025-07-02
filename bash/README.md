@@ -1,9 +1,9 @@
 A script that scans open ports on an IP address or domain.
 
 2-Clone and prepare your local repository
-git clone https://github.com/yaraDMC/Scripts/blob/main/bash/port_scanner.sh
+git clone https://github.com/yaraDMC/Scripts.git
 
-Scanned ports
+-Scanned ports
 21 (FTP)
 
 22 (SSH)
@@ -16,3 +16,11 @@ Scanned ports
 
 8080 (Alternative HTTP)
 
+-Navigate to the script folder:
+
+cd Scripts/bash/
+
+-Run the script:
+
+chmod +x port_scanner.sh  # Give execution permissions
+./port_scanner.sh google.com  # Example
