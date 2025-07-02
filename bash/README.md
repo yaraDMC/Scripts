@@ -1,6 +1,8 @@
 A script that scans open ports on an IP address or domain.
 
 2-Clone and prepare your local repository
+
+
 git clone https://github.com/yaraDMC/Scripts.git
 
 -Scanned ports
